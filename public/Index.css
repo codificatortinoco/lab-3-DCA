@@ -1,0 +1,23 @@
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.pokemon-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+.pokemon-card h2 {
+    font-size: 24px;
+    margin: 8px 0;
+}
